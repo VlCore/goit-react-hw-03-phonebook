@@ -65,7 +65,7 @@ export class App extends Component{
   }
 
   render() {
-    const { contacts, searchTerm } = this.state;
+    // const { contacts, searchTerm } = this.state;
   const filteredContacts = this.getFilteredContacts();
     return (
       <Container>
