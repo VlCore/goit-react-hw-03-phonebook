@@ -2,7 +2,6 @@ import { Contact } from "./Contact/Contact";
 import { Component } from "react";
 import PropTypes from 'prop-types';
 import { List } from "./ContactsList.styled";
-import { filterContacts } from './ContactFilter';
 
 export class ContactsList extends Component {
     render() {
